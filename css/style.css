@@ -1,0 +1,166 @@
+/* *{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    user-select: none;
+    text-decoration: none;
+
+}
+body{
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: rgb(242, 11, 11);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+    position: relative;
+    width: 94%;
+    height: 90vh;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 0;
+    background-color: rgb(49, 22, 22);
+    border-radius: 25px;
+    backdrop-filter: blur(30px);
+}
+
+.container::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    background: conic-gradient(from 0deg at center, rgba(255, 0, 0, 0.5), rgba(255, 0, 255, 0.5), rgba(0, 0, 255, 0.5), rgba(0, 255, 255, 0.5), rgba(0, 255, 0, 0.5), rgba(255, 255, 0, 0.5));
+    background-size: 400% 400%;
+    border-radius: inherit;
+    padding: 2px;
+    animation: gradientAnimation 15s ease infinite;
+    z-index: -2;
+}
+
+
+.container .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .header .logo{
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo a i.fa-solid{
+    color: rgb(219, 87, 43);
+    font-size: 28px;
+}
+
+.container .header .links {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.container .header .links a{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container .header .links a:hover{
+    transition: all 2s eases;
+    color: rgb(219, 87, 43);
+    transition: .4s;
+}
+
+.search-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: black;
+    border: none;
+}
+
+.search-container input {
+    margin-right: 10px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid #646464;
+    background: transparent;
+    color: #1e2788;
+    outline: none;
+    transition: width 0.4s ease, padding 0.4s ease;
+     opacity: 0.1; 
+}
+
+.search-container input::placeholder {
+    color: #963188;
+    transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+Expand on focus 
+.search-container input:focus {
+    width: 260px;
+    padding-left: 20px;
+    opacity: 1;
+}
+
+.search-container input:focus::placeholder {
+    transform: translateX(10px);
+    opacity: 0.6;
+    
+}
+
+.search-container button {
+    background-color: red;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 12px;
+}
+
+
+a i.fa-solid.fa-user-tie{
+    font-size: 22px;
+    color: black;
+    cursor: pointer;
+    margin: 0 20px 0 10px;
+}
+
+a i.fa-solid.fa-user-tie:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: .4s;
+    border-radius: 40px;
+}
+
+
+
+.header a i.fa-solid.fa-circle-user{
+    font-size: 22px;
+    color: black;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.header a i.fa-solid.fa-circle-user:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: .4s;
+} */
